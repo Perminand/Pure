@@ -1,6 +1,6 @@
 services:
   users:
-    build: userModule
+    build: UserModule
     container_name: users
     ports:
       - "9090:9090"
